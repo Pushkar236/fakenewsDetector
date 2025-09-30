@@ -2,8 +2,5 @@
   "buildCommand": "npm ci && npm run build",
   "installCommand": "npm ci",
   "framework": "vite",
-  "outputDirectory": "dist",
-  "functions": {
-    "runtime": "nodejs20.x"
-  }
+  "outputDirectory": "dist"
 }
