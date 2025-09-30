@@ -69,6 +69,7 @@ export class GeminiAnalysisService {
           return data.candidates[0].content.parts[0].text;
         }
       }
+      
       return null;
     } catch (error) {
       console.log('Standard API failed, trying alternative...');
