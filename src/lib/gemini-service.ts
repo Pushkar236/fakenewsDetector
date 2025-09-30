@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'AQ.Ab8RN6IsNt4hX1zwHGFxEVFTtSFuK5224t5YYhOKEpOorcdB8w';
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 // Try multiple API endpoints based on key format
 const getApiEndpoint = () => {

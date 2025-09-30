@@ -9,8 +9,13 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "vercel-build": "npm ci && npm run build",
+    "postinstall": "npm rebuild",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
