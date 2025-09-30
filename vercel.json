@@ -4,8 +4,6 @@
   "framework": "vite",
   "outputDirectory": "dist",
   "functions": {
-    "app/**/*": {
-      "runtime": "nodejs18.x"
-    }
+    "runtime": "nodejs18.x"
   }
 }
