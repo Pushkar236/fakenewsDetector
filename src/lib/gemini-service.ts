@@ -67,9 +67,10 @@ export class GeminiAnalysisService {
         const data = await response.json();
         if (data.candidates && data.candidates[0] && data.candidates[0].content) {
           return data.candidates[0].content.parts[0].text;
+          
         }
       }
-      
+
       return null;
     } catch (error) {
       console.log('Standard API failed, trying alternative...');
