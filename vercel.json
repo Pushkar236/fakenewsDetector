@@ -4,6 +4,6 @@
   "framework": "vite",
   "outputDirectory": "dist",
   "functions": {
-    "runtime": "nodejs18.x"
+    "runtime": "nodejs20.x"
   }
 }
